@@ -4,7 +4,7 @@
 
 # Site
 title: Vincent's Blog
-subtitle:
+subtitle: 不忘初心，方得始终
 description:
 author: Vincent
 language: zh-Hans
@@ -53,6 +53,7 @@ tag_map:
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
+#date_format: MMM D YYYY
 time_format: HH:mm:ss
 
 # Pagination
@@ -76,7 +77,7 @@ deploy:
 ## Plugins: https://github.com/coneycode/hexo-git-backup
 backup:
     type: git
-    theme: yilia,yilia,yilia
+    theme: yilia
     message: update backup
     repository:
        github: git@github.com:vincent0909/vincent0909.github.io.git,backup
